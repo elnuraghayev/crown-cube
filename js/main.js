@@ -8,7 +8,7 @@ animate();
 function init() {
 
 	camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
-	camera.position.z = 2000;
+	camera.position.z = 1500;
 
 	scene = new THREE.Scene();
 
@@ -39,8 +39,8 @@ function init() {
 	light.position.set( 1000, 1000, 2000 ); 
 	scene.add( light );
 
-	var light2 = new THREE.PointLight( 0xffffff , .5 );
-	light2.position.set( -1000, -1000, 2000 ); 
+	var light2 = new THREE.PointLight( 0xffffff , .8 );
+	light2.position.set( -2000, -1000, 500 ); 
 	scene.add( light2 );
 
 	renderer = new THREE.CanvasRenderer();
