@@ -12,7 +12,7 @@ function init() {
 
 	scene = new THREE.Scene();
 
-	geometry = new THREE.CubeGeometry( 600, 75, 600 );
+	geometry = new THREE.CubeGeometry( 1200, 75, 600 );
 
 	material = new THREE.MeshPhongMaterial( { color: 0xE51F34} );
 	planeTop = new THREE.Mesh( geometry, material );
